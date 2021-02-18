@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Della Cucina</title>
+</head>
+<body>
+
+<!--MENU-->
+<header>
+  <a href="#" class="logo">DellaCucina<span>.</span> </a>
+  <ul class="navigation">
+    <li><a href="#banner">Home</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#especialistas">Especialistas</a></li>
+    <li><a href="#depoimentos">Depoimentos</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</header>
+
+<!--BANNER-->
+<section class="banner">
+<div class="content">
+  <h2>Benvenuto a<br>Della Cucina!</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium ad incidunt fuga. Voluptates aliquid quis autem repellat nemo assumenda, est dolores sint, voluptatum qui, vitae doloribus commodi possimus labore.</p>
+  <a href="#" class="btn">Nosso Menu</a>
+</div>
+</section>
+
+<!--SCRIPT-->
+<script type="text/javascript">
+window.addEventListener('scroll', function(){
+const header = document.querySelector('header');
+header.classList.toggle("sticky", window.scrollY > 0);
+});
+</script>
+  
+</body>
+</html>
