@@ -1,4 +1,4 @@
-# Single Page do Restaurante - Ribalta
+# Single Page do Restaurante - LaCucina
 
 Site de página única, responsivo, usando HTML, CSS e Javascript. Otimizado para celular e tablet. 
 Ribalta é uma pizzaria tradizionale com experiência gourmet em Lisboa, Portugal.
